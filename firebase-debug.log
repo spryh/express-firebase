@@ -1,0 +1,42 @@
+[debug] [2017-12-20T23:06:01.056Z] ----------------------------------------------------------------------
+[debug] [2017-12-20T23:06:01.059Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions,hosting
+[debug] [2017-12-20T23:06:01.059Z] CLI Version:   3.16.0
+[debug] [2017-12-20T23:06:01.059Z] Platform:      darwin
+[debug] [2017-12-20T23:06:01.059Z] Node Version:  v8.9.1
+[debug] [2017-12-20T23:06:01.060Z] Time:          Wed Dec 20 2017 15:06:01 GMT-0800 (PST)
+[debug] [2017-12-20T23:06:01.060Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-20T23:06:01.080Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-20T23:06:01.080Z] > authorizing via signed-in user
+[debug] [2017-12-20T23:06:01.085Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-dialogflow  
+  
+ Wed Dec 20 2017 15:06:01 GMT-0800 (PST)
+[debug] [2017-12-20T23:06:05.223Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T23:06:05.224Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-dialogflow/tokens  
+  
+ Wed Dec 20 2017 15:06:05 GMT-0800 (PST)
+[debug] [2017-12-20T23:06:08.237Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/spryh/Documents/Dev/Firebase/firebaseAI'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-12-20T23:06:09.178Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/fir-dialogflow  
+  
+ Wed Dec 20 2017 15:06:09 GMT-0800 (PST)
+[debug] [2017-12-20T23:06:09.179Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/fir-dialogflow/apiKeys  
+  
+ Wed Dec 20 2017 15:06:09 GMT-0800 (PST)
+[debug] [2017-12-20T23:06:09.179Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-dialogflow  
+  
+ Wed Dec 20 2017 15:06:09 GMT-0800 (PST)
+[debug] [2017-12-20T23:06:13.139Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T23:06:13.177Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T23:06:13.273Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T23:06:13.274Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/783270430091/clients/_:getWebAppConfig  
+  
+ Wed Dec 20 2017 15:06:13 GMT-0800 (PST)
+[debug] [2017-12-20T23:06:17.190Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[info] ✔  functions: helloWorldNow: http://localhost:5001/fir-dialogflow/us-central1/helloWorldNow

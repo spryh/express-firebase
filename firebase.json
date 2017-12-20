@@ -7,8 +7,8 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "/helloworld",
-      "function": "helloWorld"
+      "source": "/helloworldnow",
+      "function": "helloWorldNow"
     }]
   }
 }

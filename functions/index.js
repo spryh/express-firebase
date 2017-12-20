@@ -1,11 +1,11 @@
 const functions = require('firebase-functions');
 const express = require('express')
 
-const helloWorld = express()
+const helloWorldNow = express()
 
-helloWorld.get('/helloworld', (request, response) =>{
-    response.send("Hello from Firebase!");    
+helloWorldNow.get('/helloworldnow', (request, response) =>{
+    var nowTime = new Date()
+    response.send(`Hello from Express at ${nowTime.toLocaleString()}`);    
 })
 
-exports.helloWorld = functions.https.onRequest((helloWorld) => {
-});
+exports.helloWorldNow = functions.https.onRequest(helloWorldNow)
